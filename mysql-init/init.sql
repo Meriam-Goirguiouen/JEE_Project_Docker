@@ -22,6 +22,6 @@ CREATE TABLE IF NOT EXISTS classe (
 );
 
 INSERT INTO classe (nom, niveau) VALUES
-('Mathématiques', 'Licence 1'),
+('Mathematiques', 'Licence 1'),
 ('Physique', 'Licence 2'),
 ('Informatique', 'Licence 3');
