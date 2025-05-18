@@ -14,14 +14,18 @@ INSERT INTO etudiant (nom, prenom, email) VALUES
 ('Marimi', 'Jamila', 'jam@univ.ma'),
 ('Bodan', 'Lahcen', 'luc@univ.ma');
 
-
-CREATE TABLE IF NOT EXISTS classe (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nom VARCHAR(50),
-    niveau VARCHAR(50)
+-- Table : Salle
+CREATE TABLE Salle (
+    id_salle INT PRIMARY KEY AUTO_INCREMENT,
+    nom_salle VARCHAR(50),
+    capacite INT(3),
+    type_salle VARCHAR(50),
+    batiment VARCHAR(50)
 );
 
-INSERT INTO classe (nom, niveau) VALUES
-('Mathematiques', 'Licence 1'),
-('Physique', 'Licence 2'),
-('Informatique', 'Licence 3');
+INSERT INTO Salle (nom_salle, capacite,type_salle,batiment) VALUES
+('AS1', '60', 'classe', 'informatique'),
+('AS2', '70', 'classe', 'informatique'),
+('AS3', '60', 'travaux pratiques', 'informatique'),
+('AS4', '0', 'classe', 'mathématiques'),
+('Amphi 4', '150', 'classe', 'scientifique');
