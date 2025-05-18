@@ -1,0 +1,6 @@
+com\example\dao\SalleDAO.class
+com\example\servlet\ListeSallesServlet.class
+com\example\model\Salle.class
+com\example\servlet\ListeEtudiantsServlet.class
+com\example\model\Etudiant.class
+com\example\dao\EtudiantDAO.class
