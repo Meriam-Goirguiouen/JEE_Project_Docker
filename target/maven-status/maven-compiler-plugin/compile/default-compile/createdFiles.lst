@@ -1,0 +1,8 @@
+com\mycompany\model\Matiere.class
+com\mycompany\dao\MatiereDAO.class
+com\mycompany\servlet\ListeEtudiantsServlet.class
+com\mycompany\model\Etudiant.class
+com\mycompany\jakartaee\docker\tp\JakartaRestConfiguration.class
+com\mycompany\jakartaee\docker\tp\resources\JakartaEE10Resource.class
+com\mycompany\servlet\ListeMatieresServlet.class
+com\mycompany\dao\EtudiantDAO.class
