@@ -7,4 +7,12 @@
     <servlet-name>liste</servlet-name>
     <url-pattern>/etudiants</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>NoteServlet</servlet-name>
+    <servlet-class>com.example.servlet.NoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoteServlet</servlet-name>
+    <url-pattern>/notes</url-pattern>
+  </servlet-mapping>
 </web-app>
