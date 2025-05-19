@@ -12,9 +12,8 @@ public class ListeMatieresServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
     MatiereDAO dao = new MatiereDAO();
     List<Matiere> matieres = dao.getAll();
-
-        req.setAttribute("matieres", matieres);
-        req.getRequestDispatcher("/listeMatieres.jsp").forward(req, res);
+    req.setAttribute("matieres", matieres);
+    req.getRequestDispatcher("listeMatieres.jsp").forward(req, res);
     
 }
 
