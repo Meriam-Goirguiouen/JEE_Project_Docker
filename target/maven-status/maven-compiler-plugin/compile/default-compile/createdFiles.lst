@@ -1,0 +1,3 @@
+com\example\dao\ProfesseurDAO.class
+com\example\servlet\ListeProfesseursServlet.class
+com\example\model\Professeur.class
