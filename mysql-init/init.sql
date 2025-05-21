@@ -14,15 +14,6 @@ INSERT INTO etudiant (nom, prenom, email) VALUES
 ('Marimi', 'Jamila', 'jam@univ.ma'),
 ('Bodan', 'Lahcen', 'luc@univ.ma');
 
-CREATE TABLE matieres (
-    id VARCHAR(50) PRIMARY KEY,
-    nom VARCHAR(100) NOT NULL
-);
-
-INSERT INTO matieres (id, nom) VALUES
-('M1', 'Maths'),
-('M2', 'Physique'),
-('M3', 'Informatique');
 
 CREATE TABLE notes (
     id VARCHAR(50) PRIMARY KEY,
@@ -84,3 +75,15 @@ INSERT INTO professeur (nom, prenom, email) VALUES
 ('Marimi', 'Jamila', 'jam@univ.ma'),
 ('Bodan', 'Lahcen', 'luc@univ.ma');
 ('Amphi 4', '150', 'classe', 'scientifique');
+
+-- Table Matière
+CREATE TABLE IF NOT EXISTS matiere ( 
+    id INT PRIMARY KEY AUTO_INCREMENT, 
+    nom VARCHAR(100), 
+    description TEXT
+); 
+
+INSERT INTO matiere (nom, description) VALUES 
+('Mathématiques', 'Analyse, Algèbre et Géométrie'), 
+('Informatique', 'Programmation, Réseaux, Base de données'), 
+('Physique', 'Mécanique, Électricité, Optique');

@@ -18,3 +18,11 @@ com\example\servlet\ListeClasseServlet.class
 com\example\dao\ProfesseurDAO.class
 com\example\servlet\ListeProfesseursServlet.class
 com\example\model\Professeur.class
+com\mycompany\model\Matiere.class
+com\mycompany\dao\MatiereDAO.class
+com\mycompany\servlet\ListeEtudiantsServlet.class
+com\mycompany\model\Etudiant.class
+com\mycompany\jakartaee\docker\tp\JakartaRestConfiguration.class
+com\mycompany\jakartaee\docker\tp\resources\JakartaEE10Resource.class
+com\mycompany\servlet\ListeMatieresServlet.class
+com\mycompany\dao\EtudiantDAO.class
