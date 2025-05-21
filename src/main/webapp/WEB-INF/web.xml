@@ -14,5 +14,23 @@
   <servlet-mapping>
     <servlet-name>NoteServlet</servlet-name>
     <url-pattern>/notes</url-pattern>
+
+  <servlet>
+    <servlet-name>listeClasses</servlet-name>
+    <servlet-class>com.example.servlet.ListeClasseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>listeClasses</servlet-name>
+    <url-pattern>/classes</url-pattern>
+  </servlet-mapping>
+
+  <!-- Salle -->
+  <servlet>
+    <servlet-name>SalleListe</servlet-name>
+    <servlet-class>com.example.servlet.ListeSallesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SalleListe</servlet-name>
+    <url-pattern>/salles</url-pattern>
   </servlet-mapping>
 </web-app>
