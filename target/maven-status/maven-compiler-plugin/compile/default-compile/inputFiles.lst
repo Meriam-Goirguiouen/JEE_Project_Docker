@@ -7,3 +7,6 @@ C:\Users\univers\OneDrive\Documents\NetBeansProjects\jakartaee-mysql-tp\src\main
 C:\Users\univers\OneDrive\Documents\NetBeansProjects\jakartaee-mysql-tp\src\main\java\com\example\servlet\ListeClasseServlet.java
 C:\Users\univers\OneDrive\Documents\NetBeansProjects\jakartaee-mysql-tp\src\main\java\com\example\servlet\ListeEtudiantsServlet.java
 C:\Users\univers\OneDrive\Documents\NetBeansProjects\jakartaee-mysql-tp\src\main\java\com\example\servlet\ListeSallesServlet.java
+C:\Users\univers\OneDrive\Documents\NetBeansProjects\jakartaee-mysql-tp\src\main\java\com\example\dao\ProfesseurDAO.java
+C:\Users\univers\OneDrive\Documents\NetBeansProjects\jakartaee-mysql-tp\src\main\java\com\example\model\Professeur.java
+C:\Users\univers\OneDrive\Documents\NetBeansProjects\jakartaee-mysql-tp\src\main\java\com\example\servlet\ListeProfesseursServlet.java

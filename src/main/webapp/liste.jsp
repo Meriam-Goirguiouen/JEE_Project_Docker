@@ -1,10 +1,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
-<head><title>Liste des Étudiants</title></head>
+<head><title>Liste des ï¿½tudiants</title></head>
 <body>
-<h2>Étudiants</h2>
+<h2>ï¿½tudiants</h2>
 <table border="1">
-    <tr><th>ID</th><th>Nom</th><th>Prénom</th><th>Email</th></tr>
+    <tr><th>ID</th><th>Nom</th><th>Prï¿½nom</th><th>Email</th></tr>
     <c:forEach var="e" items="${etudiants}">
         <tr>
             <td>${e.id}</td>

@@ -29,3 +29,14 @@ INSERT INTO Salle (nom_salle, capacite,type_salle,batiment) VALUES
 ('AS3', '60', 'travaux pratiques', 'informatique'),
 ('AS4', '0', 'classe', 'mathématiques'),
 ('Amphi 4', '150', 'classe', 'scientifique');
+
+CREATE TABLE professeur (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(50),
+    prenom VARCHAR(50),
+    email VARCHAR(100)
+);
+INSERT INTO professeur (nom, prenom, email) VALUES
+('Idrais', 'Jaafar', 'jaa@univ.ma'),
+('Marimi', 'Jamila', 'jam@univ.ma'),
+('Bodan', 'Lahcen', 'luc@univ.ma');

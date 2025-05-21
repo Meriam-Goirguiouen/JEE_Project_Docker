@@ -7,3 +7,6 @@ com\example\dao\ClasseDAO.class
 com\example\model\Salle.class
 com\example\model\Etudiant.class
 com\example\servlet\ListeClasseServlet.class
+com\example\dao\ProfesseurDAO.class
+com\example\servlet\ListeProfesseursServlet.class
+com\example\model\Professeur.class

@@ -26,4 +26,12 @@
     <servlet-name>SalleListe</servlet-name>
     <url-pattern>/salles</url-pattern>
   </servlet-mapping>
+    <servlet>
+        <servlet-name>liste</servlet-name>
+        <servlet-class>com.example.servlet.ListeProfesseursServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>liste</servlet-name>
+        <url-pattern>/professeurs</url-pattern>
+    </servlet-mapping>
 </web-app>
