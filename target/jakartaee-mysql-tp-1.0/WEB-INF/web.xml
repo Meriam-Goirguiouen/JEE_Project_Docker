@@ -1,5 +1,8 @@
 <web-app xmlns="http://jakarta.ee/xml/ns/jakartaee" version="5.0">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a9cd32a2150e722c24529b0f750d94d5347c62
   <servlet>
     <servlet-name>liste</servlet-name>
     <servlet-class>com.example.servlet.ListeEtudiantsServlet</servlet-class>
@@ -8,7 +11,18 @@
     <servlet-name>liste</servlet-name>
     <url-pattern>/etudiants</url-pattern>
   </servlet-mapping>
+<<<<<<< HEAD
 
+=======
+  <servlet>
+    <servlet-name>NoteServlet</servlet-name>
+    <servlet-class>com.example.servlet.NoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NoteServlet</servlet-name>
+    <url-pattern>/notes</url-pattern>
+  </servlet-mapping>
+>>>>>>> 59a9cd32a2150e722c24529b0f750d94d5347c62
   <servlet>
     <servlet-name>listeClasses</servlet-name>
     <servlet-class>com.example.servlet.ListeClasseServlet</servlet-class>
@@ -27,6 +41,7 @@
     <servlet-name>SalleListe</servlet-name>
     <url-pattern>/salles</url-pattern>
   </servlet-mapping>
+<<<<<<< HEAD
 =======
     <servlet>
         <servlet-name>liste</servlet-name>
@@ -37,4 +52,6 @@
         <url-pattern>/professeurs</url-pattern>
     </servlet-mapping>
 >>>>>>> professeur
+=======
+>>>>>>> 59a9cd32a2150e722c24529b0f750d94d5347c62
 </web-app>
