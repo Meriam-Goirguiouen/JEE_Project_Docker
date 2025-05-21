@@ -1,9 +1,10 @@
-package com.mycompany.dao;
+package com.example.dao;
 
-import com.mycompany.model.Matiere;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.example.model.Matiere;
 
 public class MatiereDAO {
     private String jdbcURL = "jdbc:mysql://mysql_etudiants:3306/etudiants_db?useSSL=false&allowPublicKeyRetrieval=true";
